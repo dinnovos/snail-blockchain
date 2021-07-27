@@ -1,3 +1,5 @@
+import { MESSAGE } from '../p2p';
+
 class Miner{
 	constructor(blockchain, p2pService, wallet){
 		this.blockchain = blockchain;
