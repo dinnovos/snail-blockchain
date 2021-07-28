@@ -66,6 +66,9 @@ class P2PService{
 
 			const { type, value } = JSON.parse(uint8ArrayToString(message.data));
 
+			console.log("Type: ", type);
+			console.log("Value: ", value);
+
 			try{
 
 				if(type === MESSAGE.BLOCKS)
